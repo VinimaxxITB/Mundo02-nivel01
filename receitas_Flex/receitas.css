@@ -1,0 +1,126 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300;400;700 & family= Source+Serif+Pro:wght@200;300;400;600; 700 & família= Tiro+Devanagari+Sânscrito & display=trocar');
+
+*{
+  família de fontes: 'Roboto', sem serifa;
+  font-family: 'Source Serif Pro', serif;
+  família de fontes: 'Tiro Devanagari Sanskrit', serifa;
+}
+
+
+/* Pagina Receitas */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: #e9967a;
+}
+
+header {
+  height: 7vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav {
+  margin-left: 2%;
+  color: black;
+  font-size: clamp(0.5em, 0.5em + 1.5vw, 1.5em);
+}
+
+main {
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-around;
+  font-weight: bolder;
+}
+
+h4 {
+  height: 3em;
+  font-weight: bold;
+  text-align: center;
+  font-size: clamp(1.2em, 3vw, 1.5em);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.box {
+  width: 27em;
+  background-color: #ffeeca;
+  height: 33em;
+  margin: 10px 0px;
+}
+
+img {
+  width: 95%;
+  height: 30%;
+  display: block;
+  text-align: right;
+  margin: auto;
+}
+
+ul {
+  text-align: left;
+  margin: 0% 5%;
+  padding: 6% 0% 6% 4em;
+  border-bottom: solid 1px gray;
+  font-weight: bold;
+  font-size: clamp( 1.0em, 1.5vw, 3.0em);
+  }
+
+
+p {
+  width: 100%;
+  font-weight: bold;
+  font-size: clamp( 1.0em, 1.5vw, 3.0em);
+  line-height: 140%;
+  margin: 0.5em 0 0 0.5em;
+}
+
+footer {
+  height: 8vh;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: clamp(1.0em, 1vw, 1.5em);
+  position: fixed;
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+ .arroz .bolo .coxinha{
+    width: 40%;
+    margin-top: 2em;
+    gap: 2px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .arroz .bolo .coxinha {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .arroz .bolo .coxinha {
+    width: 120%;
+  }
+}
